@@ -1,0 +1,7 @@
+	<strong><p id='h'>Basic Information</p></strong>
+	<p id='c'>
+		Hey! I'm Sushrut Hundikar, from Jabalpur, Madhya Pradesh. Currently I'm pursuing my undergraduate in Chemical Engineering from IIT Bombay (Roll: 190020116).
+
+	</p>
+	<br>
+	<center><img src="download.png" width="250px" height="250px"></center>
