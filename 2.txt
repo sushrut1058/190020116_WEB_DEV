@@ -1,0 +1,7 @@
+<strong><p id='h'>Courses</p></strong>
+	<p id='c'>
+		Currently I'm doing 2 courses from Learners' Space:<br>
+		-Python <br>
+		-Web Development <br><br>
+		So far it has been a good way to utilize my time in something productive.
+	</p>
