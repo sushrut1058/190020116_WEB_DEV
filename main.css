@@ -1,0 +1,130 @@
+body{
+	font-family: 'Montserrat';
+	background-color : #01011b;
+	color: white;
+}
+
+* {
+	margin:0;
+	padding: 0;
+}
+nav {
+	color:white;
+	background-color: #2b0d8a;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+}
+nav ul{
+	list-style: none;
+	display: inline-block;
+	float: right;
+	margin-right: 1%;
+}
+nav li{
+	display: inline-block;
+	margin: 0px 10px;
+	line-height: 70px;
+	font-size: 1.5em;
+}
+#m{
+	font-size: 2.5em; 
+	margin-left: 15px;
+	line-height: 70px;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+nav a:hover{
+	border: 1px solid white;
+	transition: .2s;
+}
+
+.ico div{
+	background-color: white;
+	width:30px;
+	height: 4px;
+	margin: 5px;
+	display: block;
+}
+.ico{
+	margin-top: 19px;
+	margin-right: 10px;
+	float: right;
+	display: none;
+}
+#checkbox{
+	display: none;
+}
+
+.content{
+	padding-top:70px; 
+	color: white;
+	font-size: 3em;
+}
+
+.foo{
+	left: 0;
+	bottom:0;
+	margin-bottom: 0;
+	height: 50px;
+	position: fixed;
+	background-color: #2b0d8a;
+	width: 100%;
+}
+.foo ul{
+	float: right;
+	margin-right: 20px;
+}
+
+.foo ul li{
+	display: inline-block;
+	margin-left:30px;
+	text-align: center;
+}
+
+#container{
+	font-size: 2em;
+}
+
+
+
+
+
+@media (max-width:753px){
+	#m{
+		font-size: 2.5em;
+	}
+	.ico{
+		display: block;
+		cursor: pointer;
+	}
+	nav ul{
+		position: fixed;
+		left:200%;
+		top:70px;
+		width: 100%;
+		height: 100%;
+		transition: .2s;
+		background-color: #01011b;
+	}
+	nav ul li{
+		text-align: center;
+		display: block;
+		padding: 20px;
+	}
+	nav a:hover{
+		color:#2b0d8f;
+		border:none;
+	}
+	#checkbox:checked ~ ul{
+		left:0%;	
+	}
+	
+}
