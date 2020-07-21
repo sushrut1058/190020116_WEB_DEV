@@ -22,15 +22,23 @@
 	<label id="m"><strong>About Me</strong></label>
 	
 	<ul> 
-		<li><a href="#">Basic</a></li>
-		<li><a href="#">Hobbies</a></li>
-		<li><a href="#">Projects</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#" onclick="l('0.txt')">Basic</a></li>
+		<li><a href="#" onclick="l('1.txt')">Hobbies</a></li>
+		<li><a href="#" onclick="l('2.txt')">Courses</a></li>
+		<li><a href="#" onclick="l('3.txt')">Contact</a></li>
 	</ul>
 </nav>
 
 <div id="container">
-		
+	
+
+	<strong><p id='h'>Basic Information</p></strong>
+	<p id='c'>
+		Hey! I'm Sushrt Hundikar, from Jabalpur, Madhya Pradesh. Currently I'm pursuing my undergraduate in Chemical Engineering from IIT Bombay (Roll: 190020116).
+
+	</p>
+	<br>
+	<center><img src="download.png" width="250px" height="250px"></center>
 </div>
 
 <div class="foo">
@@ -46,6 +54,7 @@
 
 
 <script type="text/javascript">
+function l(file_name){
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -53,8 +62,8 @@
       this.responseText;
     }
   };
-  xhttp.open("GET", "1.txt", true);
+  xhttp.open("GET", file_name, true);
   xhttp.send();
-
+}
 
 </script>
