@@ -90,10 +90,12 @@ nav a:hover{
 }
 
 #container{
-	font-size: 2em;
+	padding-top: 80px;
+	font-size: 2.5em;
 }
-
-
+#c ul{
+	list-style-type: circle;
+}
 
 
 
