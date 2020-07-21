@@ -1,0 +1,40 @@
+<style type="text/css">
+	.mail{
+		padding: 10px;
+		width: 300px;
+	}
+	.message{
+		padding: 50px;
+	}
+	.sub{
+		padding: 20px;
+		background-color: #2b0d8a;
+		border: none;
+		color: white;
+		font-family: 'Montserrat';
+		transition: 0.2s;
+	}
+	.sub:hover{
+		background-color: #4f369e;
+		cursor:pointer;
+	}
+</style>
+
+	<center><strong><p id='h'>Contact me!</p></strong><br>
+	<p id='c'><form
+  action="https://formspree.io/xjvajklk"
+  method="POST">
+  <label>
+    Email/Name:<br>
+    <input type="text" name="_replyto" class = 'mail'>
+  </label><br>
+  <label>
+    Your review:<br>
+    <textarea name="message" class="message"></textarea>
+  </label><br>
+
+
+  <button type="submit" class="sub">Send</button>
+</form>
+</p>
+</center>
