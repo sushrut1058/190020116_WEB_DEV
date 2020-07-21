@@ -1,3 +1,17 @@
-dsfdsfsdfsf
-dfsf
-s
+<strong><p id='h'>Hobbies</p></strong>
+	<p id='c'>
+		<ul>
+		<li>
+			I am an otaku and spend most of my time binge-watching anime. Although I seldom write reviews, even so I enjoy writing them. It's a weird hobby and therefore I'm not really overt about it.
+		</li>
+		
+		<li>
+			I like music and love singing.
+		</li>
+
+		<li>
+			I'm also interested in web security and I sometimes do CTFs or hackthissite.org missions.
+	 	</li>
+
+	 	</ul>
+	 </p>
