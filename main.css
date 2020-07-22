@@ -128,5 +128,7 @@ nav a:hover{
 	#checkbox:checked ~ ul{
 		left:0%;	
 	}
-	
+	#container{
+		font-size: 1.5em;
+	}
 }
